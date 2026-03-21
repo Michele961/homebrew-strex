@@ -1,25 +1,25 @@
 class StrexCli < Formula
   desc "CLI-first API collection runner"
   homepage "https://github.com/Michele961/strex"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Michele961/strex/releases/download/v0.2.0/strex-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "4faadf0050a490ada4de7acd6a0f20ff816597d298ac6a4d6b693982b3ddfcf4"
+      url "https://github.com/Michele961/strex/releases/download/v0.2.1/strex-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "402f1b2e321f266d818a7f86879ace85f26b2b5a0fe21bd0a20abf60df003020"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Michele961/strex/releases/download/v0.2.0/strex-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "c984c4705d96efdaaff19c8dbeeda7ed2da2f037d852d3a8b7c9a0b8d6da8dab"
+      url "https://github.com/Michele961/strex/releases/download/v0.2.1/strex-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "db19a30ec6cb95457e8269f6ad974a9fdde56e97cc0ec2c435c1dd05e81b19b5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Michele961/strex/releases/download/v0.2.0/strex-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4dd2141ccb24233e20223960e8772d0af3df1cec24742766d2cacf631cd0fa26"
+      url "https://github.com/Michele961/strex/releases/download/v0.2.1/strex-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "9939a61719113dc07d83c6dd312602f9535b687ea356ea7464d5601b38ce629b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Michele961/strex/releases/download/v0.2.0/strex-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6513bf672ba254bbc7e369b669d294db3084becf4b2c24f307973bd8d44dbaab"
+      url "https://github.com/Michele961/strex/releases/download/v0.2.1/strex-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f35c8efb113eac4972140d4bba16658cbc007f363645533e7c9ccf3f1a9304bc"
     end
   end
   license "MIT"
